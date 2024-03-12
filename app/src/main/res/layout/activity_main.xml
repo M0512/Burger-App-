@@ -11,7 +11,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="What do you want on your burger?"
+        android:fontFamily="cursive"
+        android:textSize="25sp"
+        android:textColor="@color/purple"
         android:textStyle="bold"
+
         app:layout_constraintStart_toStartOf="parent" />
 
     <RadioGroup
@@ -70,7 +74,11 @@
         android:id="@+id/teshow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="your order will be displayed here"
+        android:fontFamily="cursive"
+        android:textSize="25sp"
+        android:textColor="@color/purple"
+        android:gravity="center"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
